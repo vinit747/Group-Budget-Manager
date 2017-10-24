@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context="com.example.vinit.tripbudget.tripdetails">
+
+    <TextView
+        android:id="@+id/T_name"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:text="GOA"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+
+    <ScrollView
+        android:layout_width="308dp"
+        android:layout_height="215dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="100dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:text="Vinit"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="left"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:text="100"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="right"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:text="Vinit"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="left"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:text="100"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="right"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:text="Vinit"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="left"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:text="100"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="right"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:text="Vinit"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="left"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:text="100"
+                    android:layout_height="50dp"
+                    android:layout_width="150dp"
+                    android:layout_gravity="right"
+                    android:textSize="25dp"
+                    android:padding="10dp"
+                    android:textAlignment="center"/>
+                />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addMem"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:text="Add Member"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+
+    <TextView
+        android:id="@+id/T_amt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="$250"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/addSum"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="400dp" />
+</android.support.constraint.ConstraintLayout>

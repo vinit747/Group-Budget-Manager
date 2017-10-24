@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "342485411536",
+    "firebase_url": "https://tripbudget-4c778.firebaseio.com",
+    "project_id": "tripbudget-4c778",
+    "storage_bucket": "tripbudget-4c778.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342485411536:android:0b94754ca14c6529",
+        "android_client_info": {
+          "package_name": "com.example.vinit.tripbudget"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342485411536-br39intp5oja1gpbh1t1uer26jesaug8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vinit.tripbudget",
+            "certificate_hash": "1bc1128bb7c51807c9d90cea18b64a5561815e5f"
+          }
+        },
+        {
+          "client_id": "342485411536-8p2aif2uk3dgcjutb1fjgcjengn15mhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF1REu5FcJaLh_z_KpWZsJ7bUCNWqOLic"
+        },
+        {
+          "current_key": "AIzaSyAEsbpM9lyde80jMNh_gCx8wlIo-54wm3Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342485411536-8p2aif2uk3dgcjutb1fjgcjengn15mhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
