@@ -53,16 +53,16 @@ public class MainActivity extends AppCompatActivity {
                 ref.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
-                        data = dataSnapshot.getValue().toString();
+                        //data = dataSnapshot.getValue().toString();
                         User ud = dataSnapshot.getValue(User.class) ;
-                        tv.setText(ud.getPassword());
-//                        if(data.equals(pass.getText().toString())){
-//                            //Go to next activity intent add data
-//                            tv.setText("ok");
-//                        }
-//                        else{
-//                            tv.setText("The password entered does not match with the number \n\n please try again");
-//                        }
+                        //tv.setText(ud.getPassword());
+                        if(ud.getPassword().equals(pass.getText().toString())){
+                            //Go to next activity intent add data
+                            tv.setText("ok");
+                        }
+                        else{
+                            tv.setText("The password entered does not match with the number \n\n please try again");
+                        }
 
                         }
                      @Override
